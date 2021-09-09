@@ -11,7 +11,8 @@ const App = () => {
         height="100vh"
         projectID="bfe5f684-03b9-48d3-891b-b26ec1d90d1f"
         // userName="javascriptmastery"
-        // userSecret="123123"
+        // userSecret="123123" 
+        //123 develop barnchwq
         userName={localStorage.getItem('username')}
         userSecret={localStorage.getItem('password')}
         renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
